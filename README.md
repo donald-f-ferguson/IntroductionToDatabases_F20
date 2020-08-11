@@ -87,70 +87,142 @@ The course will (attempt) cover the _some_ of the following databases and tools 
     - MapReduce
     - Data Pipelines
 
-### Syllabus and Tentative Lecture Schedule
+### Topics Details
 
-- __Module I -- Foundational Concepts__<br><br>
-  - Lecture 1 -- 24-Jan-2020:
-    - Course overview, homework assignments, projects, grading.
-    - Database concepts
-    - Introduction to relational model, introduction to SQL.
-  - Lecture 2 -- 31-Jan-2020:
-    - ER modeling (continued)
-    - Continuing relational data model. Realizing logical data models with relational model and relational databases.
-  - Lecture 3 -- 07-Feb-2020:
-    - Relational data model details
-    - Data modeling design patterns and best practices
-  - Lecture 4 -- 14-Feb-2020:
-    - Formal model for relational data model and operations.
-    - Relational algebra, and basis for relational databases.
-  - Lecture 5 -- 21-Feb-2020: Structure Query Language (I)
-    - Select, Aggregation/Group By, Order By
-    - Join, Union, set operations
-    - Subqueries
-  - Lecture 6 -- 28-Feb-2020: SQL (II)
-    - Contraints
-    - Indexes
-    - Triggers
-    - Stored prodecures, user defined functions
-    - Views
-  - Lecture 7 -- 06-Mar-2020:
-    - Applications using databases
-    - Connections, sessions, cursors
-    - Application data models and relational data model
-    - Pandas
-    - Basics of security
-  - Lecture 8 -- 13-Mar-2020: Normalization and De-Normalization
-    - Motivation: Integraity and avoiding anaomalies versus query/decision support.
-    - Theory: Normal forms, lossless decomposition, functional dependencies, Armstrong's Axioms
-    - Examples and best practices.
-- 20-Mar-2020: No class. Spring break.<br><br>
-- __Module II -- DBMS Implementation__<br><br>
-  - Lecture 9 -- 27-Mar-2020:
+- Overview
+
+- ER Model
+    - Diagrams with entity sets, primary and candidate keys, relationship sets (including at least binary and ternary relationship sets), key and participation constraints for relationship sets, weak entity sets, is-a hierarchies, aggregation
+    -Understanding of how to model real-world data into ER diagrams
+    - Ability to read, write, and interpret complex ER diagrams, with many entity and relationship sets, and to understand what data is allowed and disallowed by the constraints expressed in the diagram
+
+- Relational Model
+    - Introduction to basics of data definition portion of relational model and SQL
+    - Data types, schemas, constraints
+    - Principled translation from ER diagrams to SQL schemas, including understanding of constraints in ER diagrams that cannot be translated precisely
+
+- Relational Algebra
+    - Importance of relational algebra as foundation of query portion of SQL, both to understand the semantics of relational queries deeply (and hence to learn to write SQL queries in a well founded manner) and to understand when queries are equivalent to each other, which in turn enables relational operator reordering during query optimization
+    - Relational algebra operators (selection, projection, cross product, condition join, equijoin, natural join, union, intersection, set difference, renaming)
+    - Inference of output schema for relational algebra expressions
+    - Translation of English statements into equivalent relational algebra expressions
+
+- SQL
+    - Conceptual execution model of a SQL query
+    - Basics
+        - Select, From, Where, Distinct, Group by, Having, Order clauses
+        - Inner, Left/Right/Outer Joins
+        - Nulls
+        - Any, All, Unique
+        - Aggregate operators
+        - Union, Intersect, Except
+        - Multi-set/bag semantics
+        - Translation from relational algebra into SQL and vice-versa
+        - Constraints: primary key, unique, foreign key, attribute-based check constraints, tuple-based check constraints, assertions
+    - Advanced
+        - Nested queries, correlated subqueries
+        - Not Exists, double negation
+        - UDFs, Stored Procedures
+        - Triggers
+        - (Non-recursive) With, View
+        
+- Application Programming and Database APIs 
+    - Database engine, connection, cursors
+    - Why cursors?
+    - Impedance mismatch and programming API to database
+    - LINQ-style query composition (Spark or Pandas)
+    
+    
+- Security Foundations (1 lecture)
+    - Access controls
+    - GRANT statements, understanding how giving and revoking privileges propagates across users
+    - Views as data access control
+
+- Normalization
+    - Importance in real-world applications of detecting and avoiding data redundancy, as well as update and delete anomalies
+    - Motivation and definition of functional dependencies and their role to detect and avoid redundancy and update and delete anomalies
+    - Reasoning about functional dependencies, closure of an attribute set, Armstrong’s axioms
+    - Definition of Boyce-Codd Normal Form
+    - Definition of lossless-join and dependency-preserving decompositions
+    - Decomposition of a relation into BCNF
+    - Discussion of best practices, design choices, and tradeoffs, grounded on normalization theory
+
+- Overview of Storage and Indexes
     - Memory hierarchy
-    - Disks, storage, data transfer, data placement
-    - Indexes: concepts, hash index, B+ Tree, text indexing
-  - Lecture 10 -- 03-Apr-2020:
-    - Basics of query processing and query optimization.
-    - Transaction processing, recovery and availability, isolation
-    - Serializability, locking
-- __Module III -- NoSQL__<br><br>
-  - Lecture 11 -- 10-Apr-2020:
-    - Motivation, NoSQL models and examples, scenarios
-    - CAP Theorem, ACID vs Base
-    - Graph databases and Neo4j
-  - Lecture 12 -- 17-Apr-2020:
-    - Document databases
-    - Key-value databases
-    - Application scenarios and examples.
-- __Module 4__ -- Decision Support/Data Anaysis<br><br>
-  - Lecture 13 -- 24-Apr-2020:
+        - Latency and throughput of memory, SSD, disk
+        - Seeks vs. scans
+        - Persistent vs. non-persistent memory
+    - High level discussion of how disk and SSD work
+        - Disks rotate and have arms
+        - SSDs have banks that burn out; write amplification
+    - Implication: data should be stored as pages and cached in “buffer pool”
+    - Importance of indexes for speeding up queries
+        - Why and when indexes speed up lookups and joins
+        - Search keys
+        - Covering indexes
+        - CREATE INDEX statements
+        
+- Overview of Query Optimization
+    - Access methods, cost models
+    - Join optimization
+        - Nested loops vs. index nested loops
+        - Join order and cardinality
+        - Discussion of use of cost models to decide join order and index selection for 2-way joins
+    - High-level discussion of complexity and general approach for optimizing execution of complex queries
+
+
+- Overview of Transaction Processing
+    - Why are transactions needed with ACID properties?
+    - BEGIN COMMIT statements
+    - Schedules: serial schedules, schedule equivalence
+    - Conflict serializability, strict 2-phase locking
+    - Explanation of need for fine-grained locks
+
+- NoSQL
+    - Document, Key-Value
+        - Data model, JSON, nested data model
+        - Schema first vs. schema later
+        - Document and key-value stores
+        - Discussion of use cases for document and key-value stores vs. relational databases
+    - Graph DB
+        - Experience with a graph database (e.g., Neo4j)
+        - Representing graphs as nodes and edges
+        - Paths and path queries in Cypher
+        - Expressing graph queries as joins
+        - Discussion of relative merits of graph databases vs. relational databases
+    - Object DB concepts
+        - Inheritance
+        - Composite attributes
+        - References, linked data
+
+- Cloud databases:
+    - Scale-up, scale-out
+    - Use cases
+    - Consistency and integrity models
+    
+- Security Extensions
+    - Overviews of different security models concerning databases
+    - SQL injection
+    - Basics of encryption and encrypted query processing
+    - Concept of differential privacy in databases
+    
+- Data Preparation and Cleaning
+    - Prevalence and impact of data errors and inconsistencies in real-world data
+    - Data preparation: extraction, data wrangling (e.g., Trifacta)
+    - Discussion of fact that multiple data sources generally disagree in practice
+    - Need for data cleaning: constraint violations, value errors, schema integration, entity resolution
+    - MapReduce, Hadoop
+    
+- Decision Support/Big Data
+    - Normalization vs Wide-Flat
+    - OLAP
     - Data warehouses
     - Data preparation, MapReduce, Hadoop
-    - OLAP, Pivot Tables
-  - Lecture 14 -- 01-May-2020:
-    - Pandas and SQL/databases
-    - Data visualization
-    - Data analysis
+ 
+
+### Syllabus and Tentative Lecture Schedule
+
+
     
 ## Logical Tracks
 
@@ -181,4 +253,69 @@ and the student will have completed a project by the end of the course.
 ## Lecture
 
 This section contains links to lecture material:
+
+
+## Old Stuff
+
+- __Module I -- Foundational Concepts__<br><br>
+  - Lecture 1:
+    - Course overview, homework assignments, projects, grading.
+    - Database concepts
+    - Introduction to relational model, introduction to SQL.
+  - Lecture 2:
+    - ER modeling (continued)
+    - Continuing relational data model. Realizing logical data models with relational model and relational databases.
+  - Lecture 3:
+    - Relational data model details
+    - Data modeling design patterns and best practices
+  - Lecture 4:
+    - Formal model for relational data model and operations.
+    - Relational algebra, and basis for relational databases.
+  - Lecture 5: Structure Query Language (I)
+    - Select, Aggregation/Group By, Order By
+    - Join, Union, set operations
+    - Subqueries
+  - Lecture 6: SQL (II)
+    - Contraints
+    - Indexes
+    - Triggers
+    - Stored prodecures, user defined functions
+    - Views
+  - Lecture 7:
+    - Applications using databases
+    - Connections, sessions, cursors
+    - Application data models and relational data model
+    - Pandas
+    - Basics of security
+  - Lecture 8: Normalization and De-Normalization
+    - Motivation: Integraity and avoiding anaomalies versus query/decision support.
+    - Theory: Normal forms, lossless decomposition, functional dependencies, Armstrong's Axioms
+    - Examples and best practices.
+- __Module II -- DBMS Implementation__<br><br>
+  - Lecture:
+    - Memory hierarchy
+    - Disks, storage, data transfer, data placement
+    - Indexes: concepts, hash index, B+ Tree, text indexing
+  - Lecture 10:
+    - Basics of query processing and query optimization.
+    - Transaction processing, recovery and availability, isolation
+    - Serializability, locking
+- __Module III -- NoSQL__<br><br>
+  - Lecture 11:
+    - Motivation, NoSQL models and examples, scenarios
+    - CAP Theorem, ACID vs Base
+    - Graph databases and Neo4j
+  - Lecture 12:
+    - Document databases
+    - Key-value databases
+    - Application scenarios and examples.
+- __Module 4__ -- Decision Support/Data Anaysis<br><br>
+  - Lecture 13:
+    - Core concepts
+    - Data pipelines, MapReduce
+    - Streams
+  - Lecture 14 -- 01-May-2020:
+    - Pandas and SQL/databases
+    - Data visualization
+    - Data analysis
 
