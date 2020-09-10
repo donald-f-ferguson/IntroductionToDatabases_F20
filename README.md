@@ -252,10 +252,23 @@ and the student will have completed a project by the end of the course.
 
 ## Lecture
 
-This section contains links to lecture material:
+This section contains links to lecture material. Most lecture material is a mix of:
+    - Jupyter notebook.
+    - Python slides.
+    - Sample code.
+
+- __Lecture 1: Introduction, Overview, Core Concepts:__
+    - [Jupyter Notes](Lectures/Lecture_1/w4111-F2020-Lecture_1a.ipynb)
+    - [HTML version of notebook](Lectures/Lecture_1/w4111-F2020-Lecture_1a.html)
+    - [Power Point Slides](Lectures/Lecture_1/Lecture_1_Introduction_and_Concepts_v2.pptx)
 
 
-## Old Stuff
+- __Lecture 2: Fundamental Concepts - Data Models, ER Models, Relational Model, SQL:__
+    - [Jupyter Notes](Lectures/Lecture_2/w4111-F2020-Lecture_2.ipynb)
+    - [HTML version of notebook](Lectures/Lecture_2/w4111-F2020-Lecture_2.html)
+    - [Power Point Slides](Lectures/Lecture_2/Lecture_2_ER_Relational_SQL_v1.pptx)
+
+## Approximate Syllabus
 
 - __Module I -- Foundational Concepts__<br><br>
   - Lecture 1:
