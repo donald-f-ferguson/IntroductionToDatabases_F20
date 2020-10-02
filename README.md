@@ -272,6 +272,9 @@ This section contains links to lecture material. Most lecture material is a mix 
     - [Jupyter Notes](Lectures/Lecture_3/w4111-F2020-Lecture_3.ipynb)
     - [HTML version of notebook](Lectures/Lecture_3/w4111-F2020-Lecture_3.html)
     - [Power Point Slides](Lectures/Lecture_3/Lecture_3_ER_Relational_SQL_v1.pptx)
+    
+- __Lecture 4: Fundamental Concepts - Data Models, ER Models, Relational Model, SQL (Cont):__
+    - [Power Point Slides](Lectures/Lecture_4/Lecture_4_ER_Relational_SQL_v2.pptx)
 
 ## Approximate Syllabus
 
