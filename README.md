@@ -283,6 +283,15 @@ This section contains links to lecture material. Most lecture material is a mix 
     - [Power Point Slides](Lectures/Lecture_5/Lecture_5_ER_Relational_SQL_v1.pptx)
 
 
+## Homework Links
+
+- Homework 2: Data Files
+    - [People](Homework/HW2_All/people.csv)
+    - [Departments](Homework/HW2_All/departments.csv)
+    - [Courses](Homework/HW2_All/courses.csv)
+    
+<br>
+    
 ## Approximate Syllabus
 
 - __Module I -- Foundational Concepts__<br><br>
