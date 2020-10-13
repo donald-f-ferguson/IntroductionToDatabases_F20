@@ -1,0 +1,51 @@
+id,dept_id,faculty_code,credit_level,course_number,course_title
+1,8,P,1,360,pede
+2,5,C,1,143,pellentesque at nulla
+3,6,B,3,104,odio
+4,9,P,1,248,in tempus
+5,6,W,9,187,tortor id nulla ultrices aliquet
+6,8,B,3,304,vel dapibus at diam
+7,1,W,9,352,ridiculus mus vivamus vestibulum sagittis
+8,4,E,2,229,purus phasellus
+9,7,B,6,290,risus
+10,1,E,2,226,dapibus duis at
+11,2,B,4,244,eu magna vulputate luctus cum
+12,9,W,2,254,at
+13,6,B,2,109,pede justo lacinia
+14,4,W,3,186,justo aliquam quis turpis eget
+15,6,P,8,137,ligula in lacus
+16,10,P,6,369,ligula
+17,7,C,2,103,magnis dis parturient montes nascetur
+18,7,E,6,288,augue vestibulum ante ipsum
+19,6,C,4,371,condimentum curabitur
+20,5,C,2,119,id
+21,3,W,9,209,in hac habitasse platea
+22,10,W,8,177,amet consectetuer
+23,5,W,1,161,congue etiam justo
+24,6,P,9,238,morbi ut odio cras
+25,10,P,9,354,lectus vestibulum quam sapien varius
+26,5,C,9,155,in quam fringilla
+27,9,B,3,218,odio porttitor id consequat
+28,10,B,6,179,lacus morbi sem
+29,7,P,3,263,tristique est
+30,2,C,2,130,nec dui
+31,2,W,3,208,pharetra magna ac
+32,5,W,1,196,nulla
+33,6,P,8,379,in
+34,7,P,2,328,sapien cum sociis natoque
+35,10,W,6,129,sodales sed tincidunt eu
+36,3,W,2,188,neque
+37,6,W,2,256,cras pellentesque volutpat dui
+38,5,C,3,335,volutpat eleifend donec ut dolor
+39,3,P,8,314,platea dictumst etiam
+40,10,E,4,338,justo pellentesque
+41,5,E,6,315,tristique fusce congue
+42,6,C,2,294,platea dictumst
+43,8,C,9,355,leo maecenas pulvinar
+44,3,E,2,334,vestibulum velit id pretium
+45,7,C,1,264,nec sem duis aliquam convallis
+46,5,B,9,100,nisl duis bibendum felis sed
+47,3,E,4,100,dui
+48,1,C,6,160,vestibulum
+49,1,P,4,245,sit amet consectetuer
+50,3,B,4,276,amet consectetuer

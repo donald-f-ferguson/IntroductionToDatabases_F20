@@ -1,0 +1,11 @@
+id,dept_code,department_name
+1,COMS,Computer Science
+2,ELEE,Electrical Engineering
+3,ECON,Economics
+4,MECH,Mechanical Engineering
+5,MATH,Mathematics
+6,PHYS,Physics
+7,BIME,Biomedical Engineering
+8,APPM,Applied Mathematics
+9,IEOR,Industrial Engineering/Operations Research
+10,CHEE,Chemical Engineering
