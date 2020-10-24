@@ -288,7 +288,7 @@ This section contains links to lecture material. Most lecture material is a mix 
     
     
 - __Lecture 7: Fundamental Concepts - Data Models, ER Models, Relational Model (Closure) (Cont):__
-    - [Power Point Slides](Lectures/Lecture_7/Lecture_7_ER_Relational_SQL_v1.pptx)
+    - [Power Point Slides](Lectures/Lecture_7/Lecture_7_ER_Relational_SQL_Closure_v2.pptx)
 
 
 ## Homework Links
