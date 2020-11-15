@@ -289,6 +289,20 @@ This section contains links to lecture material. Most lecture material is a mix 
     
 - __Lecture 7: Fundamental Concepts - Data Models, ER Models, Relational Model (Closure) (Cont):__
     - [Power Point Slides](Lectures/Lecture_7/Lecture_7_ER_Relational_SQL_Closure_v2.pptx)
+    
+    
+- __Lecture 8: Module II -- Disks and Indexes:__
+    - [Power Point Slides](Lectures/Lecture_8/Module_Lecture_8_II__DIsks_Indexes.pptx)
+    
+    
+- __Lecture 9: Module II -- Index, Transactions, Query Processing:__
+    - [Power Point Slides -- Query Processing/Transactions]:(Lectures/Lecture_9/Module_II_Lecture_9_Query_Transactions_NoSQL.pptx)
+    - [Power Point -- No SQL](Lectures/Lecture_9/F2020_no_sql.pptx) 
+    
+    
+- __Lecture 10: Module III -- NoSQL Continued:__
+    - [Power Point SLides](Lectures/Lecture_10/Module_II_Lecture_10_NoSQL_2.pptx) 
+
 
 
 ## Homework Links
