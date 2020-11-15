@@ -1,0 +1,187 @@
+{
+  "result": {
+    "history_size": 2,
+    "folders": [
+      "logistics",
+      "office_hours",
+      "examples",
+      "other"
+    ],
+    "nr": 966,
+    "data": {
+      "embed_links": []
+    },
+    "created": "2020-11-15T13:23:05Z",
+    "bucket_order": 3,
+    "no_answer_followup": 0,
+    "change_log": [
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "data": "khj5g1phnfs2cu",
+        "v": "all",
+        "type": "create",
+        "when": "2020-11-15T13:23:05Z"
+      },
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "to": "khj5g1pep1a2ct",
+        "type": "followup",
+        "when": "2020-11-15T13:23:24Z",
+        "cid": "khj5gfx8gpg3bf"
+      },
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "to": "khj5g1pep1a2ct",
+        "type": "feedback",
+        "when": "2020-11-15T13:23:42Z",
+        "cid": "khj5gub5hi53ir"
+      },
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "to": "khj5g1pep1a2ct",
+        "type": "feedback",
+        "when": "2020-11-15T13:24:05Z",
+        "cid": "khj5hbxbm1k412"
+      },
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "to": "khj5g1pep1a2ct",
+        "type": "followup",
+        "when": "2020-11-15T13:24:21Z",
+        "cid": "khj5hnrwn7y47r"
+      },
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "data": "khj5onnez2b642",
+        "type": "update",
+        "when": "2020-11-15T13:29:47Z"
+      }
+    ],
+    "bucket_name": "Today",
+    "history": [
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "subject": "Sample post for Lecture",
+        "created": "2020-11-15T13:29:47Z",
+        "content": "<p>Original post.<\/p>\n<p><\/p>\n<p>Made a change.<\/p>\n<p><\/p>\n<p>Added a tag.<\/p>\n<p><\/p>\n<p><\/p>"
+      },
+      {
+        "anon": "no",
+        "uid": "i05r4bvmhya5n2",
+        "subject": "Sample post for Lecture",
+        "created": "2020-11-15T13:23:05Z",
+        "content": "<p>Original post.<\/p>"
+      }
+    ],
+    "type": "note",
+    "anon_map": {},
+    "tags": [
+      "instructor-note",
+      "logistics"
+    ],
+    "tag_good": [],
+    "unique_views": 5,
+    "children": [
+      {
+        "anon": "no",
+        "folders": [],
+        "data": null,
+        "no_upvotes": 0,
+        "subject": "<p>Sample follow up to show document nesting.<\/p>",
+        "created": "2020-11-15T13:23:24Z",
+        "bucket_order": 3,
+        "bucket_name": "Today",
+        "type": "followup",
+        "tag_good": [],
+        "uid": "i05r4bvmhya5n2",
+        "children": [
+          {
+            "anon": "no",
+            "folders": [],
+            "data": null,
+            "subject": "<p>Another level of nesting.<\/p>",
+            "created": "2020-11-15T13:23:42Z",
+            "bucket_order": 3,
+            "bucket_name": "Today",
+            "type": "feedback",
+            "tag_good": [],
+            "uid": "i05r4bvmhya5n2",
+            "children": [],
+            "tag_good_arr": [],
+            "id": "khj5gub5hi53ir",
+            "updated": "2020-11-15T13:23:42Z",
+            "config": {}
+          },
+          {
+            "anon": "no",
+            "folders": [],
+            "data": null,
+            "subject": "<p>2nd element.<\/p>",
+            "created": "2020-11-15T13:24:05Z",
+            "bucket_order": 3,
+            "bucket_name": "Today",
+            "type": "feedback",
+            "tag_good": [],
+            "uid": "i05r4bvmhya5n2",
+            "children": [],
+            "tag_good_arr": [],
+            "id": "khj5hbxbm1k412",
+            "updated": "2020-11-15T13:24:05Z",
+            "config": {}
+          }
+        ],
+        "tag_good_arr": [],
+        "no_answer": 0,
+        "id": "khj5gfx8gpg3bf",
+        "updated": "2020-11-15T13:23:24Z",
+        "config": {}
+      },
+      {
+        "anon": "no",
+        "folders": [],
+        "data": null,
+        "no_upvotes": 0,
+        "subject": "<p>2nd top level.<\/p>",
+        "created": "2020-11-15T13:24:21Z",
+        "bucket_order": 3,
+        "bucket_name": "Today",
+        "type": "followup",
+        "tag_good": [],
+        "uid": "i05r4bvmhya5n2",
+        "children": [],
+        "tag_good_arr": [],
+        "no_answer": 0,
+        "id": "khj5hnrwn7y47r",
+        "updated": "2020-11-15T13:24:21Z",
+        "config": {}
+      }
+    ],
+    "tag_good_arr": [],
+    "anon_icons": true,
+    "id": "khj5g1pep1a2ct",
+    "config": {},
+    "status": "active",
+    "request_instructor": 0,
+    "request_instructor_me": false,
+    "bookmarked": 1,
+    "num_favorites": 0,
+    "my_favorite": false,
+    "is_bookmarked": true,
+    "is_tag_good": false,
+    "q_edits": [],
+    "i_edits": [],
+    "s_edits": [],
+    "t": 1605446994497,
+    "default_anonymity": "no",
+    "my_post": true
+  },
+  "error": null,
+  "aid": "khj5ot2arp0h"
+}
