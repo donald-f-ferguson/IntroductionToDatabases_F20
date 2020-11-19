@@ -296,12 +296,20 @@ This section contains links to lecture material. Most lecture material is a mix 
     
     
 - __Lecture 9: Module II -- Index, Transactions, Query Processing:__
-    - [Power Point Slides -- Query Processing/Transactions]:(Lectures/Lecture_9/Module_II_Lecture_9_Query_Transactions_NoSQL.pptx)
+    - [Power Point Slides -- Query Processing/Transactions](Lectures/Lecture_9/Module_II_Lecture_9_Query_Transactions_NoSQL.pptx)
     - [Power Point -- No SQL](Lectures/Lecture_9/F2020_no_sql.pptx) 
     
     
 - __Lecture 10: Module III -- NoSQL Continued:__
-    - [Power Point SLides](Lectures/Lecture_10/Module_II_Lecture_10_NoSQL_2.pptx) 
+    - [Power Point SLides](Lectures/Lecture_10/Module_III_Lecture_10_NoSQL_2.pptx) 
+    
+    
+- __Lecture 11: Normalization, Big Data, Decision Support:__ This material is mostly directly from the slides
+associated with the textbook and then some hands on demos.
+    - [Normalization -- PPT](Lectures/Lecture_11/ch7.pptx)
+    - [Big Data -- PPT](Lectures/Lecture_11/ch10.pptx)
+    - [Data Analytics -- PPT](Lectures/Lecture_11/ch11.pptx)
+    
 
 
 
