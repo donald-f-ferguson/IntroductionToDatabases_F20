@@ -311,7 +311,11 @@ associated with the textbook and then some hands on demos.
     - [Data Analytics -- PPT](Lectures/Lecture_11/ch11.pptx)
     
 
-
+- __Lecture 12: Big Data, Decision Support (2):__
+    - [PPT](Lectures/Lecture_12/lecture_12_big_cool_data.pptx)
+    - [Pivot Example](Lectures/Lecture_12/class_cars_pivot.xlsx)
+    - [Jupyter Notebook](Lectures/Lecture_12/lecture_12_data_web.ipynb)
+    
 
 ## Homework Links
 
