@@ -316,6 +316,11 @@ associated with the textbook and then some hands on demos.
     - [Pivot Example](Lectures/Lecture_12/class_cars_pivot.xlsx)
     - [Jupyter Notebook](Lectures/Lecture_12/lecture_12_data_web.ipynb)
     
+    
+- __Lecture 13: Random Stuff):__
+    - [PPT](Lectures/Lecture_13/lecture_12_data_web.ipynb)
+    - [Jupyter Notebook](Lectures/Lecture_13/lecture_12_data_web.ipynb)
+    
 
 ## Homework Links
 
